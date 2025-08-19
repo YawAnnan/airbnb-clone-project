@@ -44,4 +44,58 @@ A high-level overview of the core technologies leveraged in this project:
 - **Docker**: Containerization tool that ensures a consistent and reproducible development and deployment environment across all stages of the project lifecycle.
 - **CI/CD Pipelines**: Automated workflows that build, test, and deploy code changes, ensuring stability and speed in delivery.
 
+---
+## Database Design
+
+This section outlines the key entities required for the AirBnB Clone project, important fields for each, and how they interrelate.
+
+### Entities & Key Fields
+
+#### **Users**
+- `id` (PK)
+- `username`
+- `email`
+- `password_hash`
+- `created_at`
+
+#### **Properties**
+- `id` (PK)
+- `host_id` (FK → Users.id)
+- `title`
+- `location`
+- `price_per_night`
+
+#### **Bookings**
+- `id` (PK)
+- `user_id` (FK → Users.id)
+- `property_id` (FK → Properties.id)
+- `start_date`
+- `end_date`
+
+#### **Payments**
+- `id` (PK)
+- `booking_id` (FK → Bookings.id)
+- `amount`
+- `payment_method`
+- `payment_date`
+
+#### **Reviews**
+- `id` (PK)
+- `user_id` (FK → Users.id)
+- `property_id` (FK → Properties.id)
+- `booking_id` (FK → Bookings.id)
+- `rating`
+- `comment`
+
+---
+
+### Relationships
+
+- A **User** (as host) **can own many** **Properties**.
+- A **User** (as guest) **can create many** **Bookings**.
+- A **Booking** **belongs to one** **Property** and one **User**.
+- Each **Booking** typically has one **Payment** associated.
+- A **User** **can write many** **Reviews**, each linked to a **Property** and **Booking**.
+
+
 
