@@ -7,7 +7,7 @@ This is a scalable and production-ready **AirBnB clone** built to demonstrate fu
 - Rebuild key Airbnb-like features: user registration, property listings, search and booking flows, and notifications.
 - Build a clean, maintainable codebase that’s easy to test, extend, and deploy.
 - Use automation to streamline development and promote a DevOps-oriented workflow.
-  
+
 #### Technology Stack
 - **Django**
 - **Django REST Framework** 
