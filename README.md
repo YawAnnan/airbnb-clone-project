@@ -3,7 +3,7 @@
 ## Overview
 This is a scalable and production-ready **AirBnB clone** built to demonstrate full-stack development with a modern, asynchronous architecture. It focuses on delivering core functionality—like property listings, bookings, and user interactions—while showcasing background processing, flexible APIs, and development agility.
 
-### Project Goals
+## Project Goals
 - Rebuild key Airbnb-like features: user registration, property listings, search and booking flows, and notifications.
 - Build a clean, maintainable codebase that’s easy to test, extend, and deploy.
 - Use automation to streamline development and promote a DevOps-oriented workflow.
