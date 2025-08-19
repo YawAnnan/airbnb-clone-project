@@ -29,7 +29,7 @@ This is a scalable and production-ready **AirBnB clone** built to demonstrate fu
 | **DevOps Engineer**       | Oversees deployment pipelines, monitoring, and ensures scalable backend infrastructure via CI/CD. |
 | **QA Engineer**           | Tests backend functionality, validates quality standards, and reports defects. |
 
--
+
 
 ## Technology Stack
 
@@ -44,7 +44,7 @@ A high-level overview of the core technologies leveraged in this project:
 - **Docker**: Containerization tool that ensures a consistent and reproducible development and deployment environment across all stages of the project lifecycle.
 - **CI/CD Pipelines**: Automated workflows that build, test, and deploy code changes, ensuring stability and speed in delivery.
 
--
+
 ## Database Design
 
 This section outlines the key entities required for the AirBnB Clone project, important fields for each, and how they interrelate.
@@ -98,7 +98,7 @@ This section outlines the key entities required for the AirBnB Clone project, im
 - A **User** **can write many** **Reviews**, each linked to a **Property** and **Booking**.
 
 
--
+
 ## Feature Breakdown
 
 Below are the core features of the project, each supporting a critical aspect of the user experience and system functionality.
@@ -123,7 +123,7 @@ Guests can leave reviews and ratings for properties and hosts after their stays.
 ### Messaging System  
 Built-in communication enables guests and hosts to chat before, during, and after stays, facilitating questions, clarifications, and rapport building. It enhances user experience and reduces friction.  
 
--
+
 ## API Security
 
 Securing backend APIs is essential to protect user data, financial transactions, and maintain trust. Below are the key security measures implemented in this project and why they matter:
@@ -153,7 +153,7 @@ Securing backend APIs is essential to protect user data, financial transactions,
 
 ###  Why These Measures Matter for the Project
 
-- **Protecting User & Payment Data**: APIs handle registration, bookings, payments, and personal information—making authentication, encryption, and validation non-negotiable.
+- **Protecting User & Payment Data**: APIs handle registration, bookings, payments, and personal information, making authentication, encryption, and validation non-negotiable.
 - **Resilience Against Abuse**: Rate limiting guards against denial-of-service attempts and brute-force registration or login attacks.
 - **Regulatory Compliance & Trust**: Secure APIs help meet standards like GDPR and PCI-DSS and nurture user confidence in the platform.
 - **Operational Stability & Security Visibility**: Monitoring, logging, and alerting systems equip developers with the tools to proactively detect misuse or attacks.
