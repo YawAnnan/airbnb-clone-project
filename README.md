@@ -157,3 +157,20 @@ Securing backend APIs is essential to protect user data, financial transactions,
 - **Resilience Against Abuse**: Rate limiting guards against denial-of-service attempts and brute-force registration or login attacks.
 - **Regulatory Compliance & Trust**: Secure APIs help meet standards like GDPR and PCI-DSS and nurture user confidence in the platform.
 - **Operational Stability & Security Visibility**: Monitoring, logging, and alerting systems equip developers with the tools to proactively detect misuse or attacks.
+
+
+## CI/CD Pipeline
+
+**What it is:**  
+CI/CD (Continuous Integration and Continuous Delivery/Deployment) automates the software development lifecycle, helping merge code, run tests, and deploy changes more reliably and frequently.
+
+**Why it matters:**  
+- **Faster delivery:** Automates build-test-deploy, speeding up feature rollout.  
+- **Higher quality:** Automated testing catches issues early, reducing production risks.  
+- **Smarter collaboration:** Immediate feedback loops keep collaboration fast and efficient.
+
+**Tools that may be used for this.**  
+- **GitHub Actions** – for defining and running automated workflows (build/test/deploy).  
+- **Docker** – for consistent environments in the CI/CD pipeline.  
+- **Alternate options:** CircleCI, Travis CI, TeamCity, Semaphore, or GoCD depending on infrastructure needs.
+
